@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27,27,27);
+}
+
+.keys{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+kbd{
+    font-size: 3rem;
+    font-family: 'Aboreto', cursive;
+    color: rgb(8, 8, 8);
+    font-weight: 900;
+}
+
+.key{
+    padding: 2rem 2.5rem;
+    background-color: lightgreen;
+    transition: all 0.09s;
+}
+
+.play{
+    transform: scale(1.1);
+    background-color: rgb(250, 95, 95);
+    box-shadow: 0 0 5px #ec5904;
+}
+
+
+.footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: linear-gradie;
+}
+
+.title{
+    font-family: 'Aboreto', cursive;
+    color: lightcoral;
+    transition: 2s;
+}
+
+.title:hover{
+    transform: scale(1.1);
+    color: lightgoldenrodyellow;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px){
+    :root{
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width: 600px){
+    :root{
+        font-size: 5px;
+    }
+}
